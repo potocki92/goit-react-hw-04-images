@@ -51,8 +51,6 @@ export const App = () => {
   const handleImageClick = image => {
     setSelectedImage(image);
     setShowModal(true);
-
-    console.log(showModal);
   };
 
   const handleCloseModal = () => {
